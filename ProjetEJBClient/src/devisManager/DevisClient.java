@@ -81,6 +81,7 @@ public class DevisClient{
 		devis.clear();
 		textMontant.setText("0.00 �");	
 		devisList.addItem(ejb);
+		devisList.setSelectedItem(ejb);
 		model.fireTableDataChanged();
 	}
 	
